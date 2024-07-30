@@ -1,25 +1,19 @@
+import { sign } from "crypto";
+
 export type SiteConfig = typeof siteConfig;
 
 export const siteConfig = {
-  name: "Next.js + NextUI",
-  description: "Make beautiful websites regardless of your design experience.",
+  name: "Dinner Is Served",
+  description: "Meals cooked fresh for busy people and families.",
   navItems: [
     {
-      label: "Home",
-      href: "/",
+      label: "Menu",
+      href: "/menu",
     },
-    {
-      label: "Docs",
-      href: "/docs",
-    },
-    {
-      label: "Pricing",
-      href: "/pricing",
-    },
-    {
-      label: "Blog",
-      href: "/blog",
-    },
+    // {
+    //   label: "Calendar",
+    //   href: "/calendar",
+    // },
     {
       label: "About",
       href: "/about",
@@ -54,16 +48,34 @@ export const siteConfig = {
       label: "Help & Feedback",
       href: "/help-feedback",
     },
+    { label: "Login", href: "/login" },
     {
       label: "Logout",
       href: "/logout",
     },
+    {
+      label: "Admin",
+      href: "/admin",
+      sublinks: [
+        "account-settings",
+        "menu",
+        "ingredients",
+        "calendar-management",
+        "about-page",
+      ],
+    },
+    {
+      label: "User",
+      href: "/user",
+      sublinks: ["account-settings", "calendar", "order-history"],
+    },
   ],
   links: {
+    login: "/login",
+    signup: "/signup",
     github: "https://github.com/nextui-org/nextui",
     twitter: "https://twitter.com/getnextui",
     docs: "https://nextui.org",
     discord: "https://discord.gg/9b6yyZKmH4",
-    sponsor: "https://patreon.com/jrgarciadev",
   },
 };

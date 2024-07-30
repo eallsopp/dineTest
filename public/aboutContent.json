@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "size": 70,
+    "icon": "GiKnifeFork",
+    "title": "Tasty Recipes",
+    "content": "Complete meals at an affordable price for you and your family"
+  },
+  {
+    "id": 2,
+    "size": 70,
+    "icon": "GiWaterRecycling",
+    "title": "Zero Plastic, Zero Waste!",
+    "content": "We only supply our local community, eliminating the need for irritating single-use plastic packaging"
+  },
+  {
+    "id": 3,
+    "size": 70,
+    "icon": "IoLeaf",
+    "title": "Organic ONLY",
+    "content": "The best produce and meat available.  Organic and locally sourced as much as possible"
+  },
+  {
+    "id": 4,
+    "size": 70,
+    "icon": "GiAlarmClock",
+    "title": "Time Saving",
+    "content": "All meals are prepared and ready to heat and eat in minutes"
+  },
+  {
+    "id": 5,
+    "icon": "SiHomeassistantcommunitystore",
+    "size": 70,
+    "title": "Community Driven",
+    "content": "We live in and support our community through donating a percentage of profits to the Missoula Food Bank."
+  },
+  {
+    "id": 6,
+    "icon": "GoSmiley",
+    "size": 70,
+    "title": "Best of all...",
+    "content": "NO Dishes!"
+  }
+]

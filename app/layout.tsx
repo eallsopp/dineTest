@@ -9,6 +9,7 @@ import { siteConfig } from "@/config/site";
 import { fontSans } from "@/config/fonts";
 import { Navbar } from "@/components/navbar";
 
+//reserved name metadata, which is the 'head' data for the pages
 export const metadata: Metadata = {
   title: {
     default: siteConfig.name,
@@ -38,7 +39,7 @@ export default function RootLayout({
       <body
         className={clsx(
           "min-h-screen bg-background font-sans antialiased",
-          fontSans.variable,
+          fontSans.variable
         )}
       >
         <Providers themeProps={{ attribute: "class", defaultTheme: "dark" }}>
@@ -48,7 +49,7 @@ export default function RootLayout({
               {children}
             </main>
             <footer className="w-full flex items-center justify-center py-3">
-              <Link
+              {/* <Link
                 isExternal
                 className="flex items-center gap-1 text-current"
                 href="https://nextui-docs-v2.vercel.app?utm_source=next-app-template"
@@ -56,7 +57,7 @@ export default function RootLayout({
               >
                 <span className="text-default-600">Powered by</span>
                 <p className="text-primary">NextUI</p>
-              </Link>
+              </Link> */}
             </footer>
           </div>
         </Providers>

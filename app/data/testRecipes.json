@@ -1,0 +1,31 @@
+[
+  {
+    "title": "Carne Asada",
+    "ingredients": [
+      "flank steak",
+      "orange juice",
+      "lime juice",
+      "light beer",
+      "tamari",
+      "vegetable oil",
+      "white onion",
+      "pepper"
+    ],
+    "description": "This authenticly Mexican beef dish is grilled after marinating in lime juice and seasonings and then cut into thin strips.",
+    "image": "https://www.cookingclassy.com/wp-content/uploads/2020/07/carne-asada-5-1024x1536.jpg",
+    "datesAvailable": ["2024-07-24"]
+  },
+  {
+    "title": "Chicken Enchiladas",
+    "ingredients": [
+      "chicken",
+      "onion",
+      "green chile peppers",
+      "flour tortillas",
+      "cheddar cheese"
+    ],
+    "description": "A spicy chicken and chile pepper mixture is rolled up in flour tortillas, topped with a homemade sauce, and baked.",
+    "image": "https://www.jessicagavin.com/wp-content/uploads/2018/04/chicken-enchiladas-5-1200.jpg",
+    "datesAvailable": ["2024-07-31"]
+  }
+]
